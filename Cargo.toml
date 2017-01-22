@@ -1,6 +1,6 @@
 [package]
 name = "uhttp_request"
-version = "0.5.0"
+version = "0.5.1"
 authors = ["Mick Koch <mick@kochm.co>"]
 description = "HTTP request start-line and header field parsers"
 license = "MIT"
