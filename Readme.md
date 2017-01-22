@@ -36,3 +36,18 @@ assert!(headers.next().is_none());
 let rest = headers.into_inner();
 assert_eq!(rest, b"body");
 ```
+
+## Usage
+
+This [crate](https://crates.io/crates/uhttp_request) can be used through cargo by adding
+it as a dependency in `Cargo.toml`:
+
+```toml
+[dependencies]
+uhttp_request = "0.5.0"
+```
+and importing it in the crate root:
+
+```rust
+extern crate uhttp_request;
+```
